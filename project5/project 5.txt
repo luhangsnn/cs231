@@ -1,0 +1,17 @@
+1) checkout lcass
+	Que of customers
+	updateState()
+		time++
+	for front customer, remove one itemm from the checkout line
+		if the front customer has an empty cart: leave the store ->> linkedlist checkout
+
+2) customer class:
+	at every time steop, we create one new customer, add to checkout line
+	a. random: pick checkout line at random
+	b. shortest: pick line with the smalles queue of customers
+	c. min of random 2: random pick 2 checkout lines, choose the shortest queue
+
+3) Landscape class
+	Arraylist of checkout agents
+	store the LinkedList of checkedout customers(de-queued from the queue)
+3) Landscape display: bar graph

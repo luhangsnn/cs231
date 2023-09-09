@@ -1,0 +1,10 @@
+Queue
+public enum strategy {random, picky, pick2} (stores as final integer index)
+
+class customer {
+	private strategy s;
+	if (s == strategy.Random) ///
+
+Adjacency list graph representation
+1) hashmap <direction, int>
+2) array[int] 
